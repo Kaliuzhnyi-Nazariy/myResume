@@ -1,0 +1,311 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
+  padding: 40px;
+}
+
+.wripper {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background: #fff;
+
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* Main content */
+.m-con {
+  padding-top: 88px;
+  padding-bottom: 88px;
+  padding-left: 88px;
+  padding-right: 88px;
+
+  padding: 88px 88px 88px 88px;
+  /* I can write like first padding or like second (top, right, bottom, left) */
+}
+
+.main-content-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  margin: 0 0 8px 0;
+  color: #000000;
+}
+
+/* About me */
+
+.my-prof {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0 0 18px 0;
+}
+
+.my-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin: 0 0 28px 0;
+}
+
+.myd {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  max-width: 525px;
+  color: #595959;
+}
+
+.aboutme-container {
+  margin: 0 0 64px 0;
+}
+
+/* projects */
+
+.pro-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #000000;
+}
+
+.pro-list {
+  padding: 0 0 0 18px;
+  margin: 0;
+}
+
+.projects-container {
+  margin: 0 0 48px 0;
+}
+
+.pro-item-descr {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-left: auto;
+}
+
+.pro-item-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+
+  color: #005fff;
+}
+
+/* Work experience */
+
+.work-experience-container {
+  margin-bottom: 44px;
+}
+
+.we-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0;
+}
+
+.we-place {
+  margin-bottom: 16px;
+}
+
+.we-company {
+  color: #6d9bf5;
+}
+
+.we-period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin: 12px 0 8px 0;
+  color: #a8a8a8;
+}
+
+.work-duties {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0;
+  color: #595959;
+}
+
+.work-duties-list {
+  padding: 0 0 0 14px;
+  margin: 0;
+}
+
+.educ-place {
+  margin: 0;
+  padding: 12px 0 12px 0;
+  color: #6d9bf5;
+}
+
+a {
+  text-decoration: none;
+  color: #6d9bf5;
+}
+
+/* techskills */
+.skill-list {
+  margin: 0;
+  padding: 0 0 0 18px;
+}
+
+.SLI {
+  color: #6d9bf5;
+}
+
+.SLT {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #161d2a;
+}
+
+.ss-list {
+  margin: 0;
+  padding: 0 0 0 18px;
+}
+
+.SSI {
+  color: #6d9bf5;
+}
+
+.sslitem {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #161d2a;
+}
+
+/* Sidebar */
+
+.sidebar {
+  width: 370px;
+  background: #e0ebfe;
+}
+
+.photo {
+  margin-top: 40px;
+}
+
+/* padding & margin is the same */
+
+.contact-cont,
+.tecskil-cont,
+.SS-cont {
+  margin: 40px 0px 0px 48px;
+}
+
+.sb-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+
+  color: #161d2a;
+  margin-bottom: 8px;
+}
+
+.contact-type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+  margin-right: 8px;
+  margin-top: 0;
+}
+
+.cont-item {
+  margin: 0;
+}
+/* Contacts */
+.contacts-number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+}
+
+.contacts-email {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+
+  color: #2979ff;
+}
+
+@media screen and (max-width: 1023px) {
+  body {
+    margin: 0;
+    padding: 0;
+    max-width: 568px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wripper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .m-con {
+    padding: 22px;
+  }
+
+  .sidebar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+
+  .contact-cont {
+    margin: 0;
+  }
+
+  .tecskil-cont {
+    margin: 0 0 0 -12px;
+  }
+
+  .main-content-item {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:767px) {
+  .photo {
+    width: 100%;
+  }
+}
